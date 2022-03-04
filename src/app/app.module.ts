@@ -19,6 +19,8 @@ import {MatNativeDateModule } from '@angular/material/core';
 import { IllnessComponent } from './illness/illness.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import {MatSelectModule} from '@angular/material/select';
+import { RelationshipComponent } from './relationship/relationship.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +29,7 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
     ProgressStepDirective,
     PersonComponent,
     IllnessComponent,
+    RelationshipComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,7 +45,8 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
     MatDatepickerModule,
     MatNativeDateModule,
     MatCheckboxModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent],
