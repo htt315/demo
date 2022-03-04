@@ -1,58 +1,76 @@
 <form class="person-form">
-    <h1>HỒ SƠ BỆNH LÝ</h1>
-    <div class="example-section">
-        <mat-label>Bạn có anh em song sinh không ? </mat-label>
-        <mat-checkbox class="example-margin">Có</mat-checkbox>
-        <mat-checkbox class="example-margin">Không</mat-checkbox>
-    </div>
-    <section class="example-section">
-        <mat-label>Bạn có được nhận nuôi không ? </mat-label>
-        <mat-checkbox class="example-margin">Có</mat-checkbox>
-        <mat-checkbox class="example-margin">Không</mat-checkbox>
-    </section>
-    <div>
-        <label>chiều cao</label>
-        <mat-form-field>
-            <input matInput formControlName="ten" />
-        </mat-form-field>
-        <label for="">cân nặng</label>
-        <mat-form-field>
-            <input matInput formControlName="ten" />
-        </mat-form-field>
-    </div>
-    <section class="example-section">
-        <mat-label>Bố mẹ có quan hệ họ hàng không ? </mat-label>
-        <mat-checkbox class="example-margin">Có</mat-checkbox>
-        <mat-checkbox class="example-margin">Không</mat-checkbox>
-    </section>
-    <div>
-        <h3>Điền vào các mục sau nếu bạn là nữ:</h3>
-        <label for="">Tuổi có kinh đầu: </label>
-        <mat-form-field><input type="text" matInput></mat-form-field>
-        <label for="">Khoảng thời gian dùng thuốc tránh thai: </label>
-        <mat-form-field><input type="text" matInput></mat-form-field>
-        <label for="">Số lần mang thai: </label>
-        <mat-form-field><input type="text" matInput></mat-form-field>
-        <label for="">Tuổi có con đầu tiên: </label>
-        <mat-form-field><input type="text" matInput></mat-form-field>
-    </div>
-
-    <div>
-        <h3>Điền vào các mục sau cho cả nam và nữ:</h3>
-        <section class="example-section">
-            <mat-label>Bạn có hút thuốc không ? </mat-label>
+    <section>
+        <h1>HỒ SƠ BỆNH LÝ</h1>
+        <div class="example-section">
+            <mat-label>Bạn có anh em song sinh không ? </mat-label>
             <mat-checkbox class="example-margin">Có</mat-checkbox>
             <mat-checkbox class="example-margin">Không</mat-checkbox>
-        </section>
-        <label for="">Từng hút: </label>
-        <mat-form-field><input type="text" matInput></mat-form-field>
-        <label for="">Bỏ thuốc năm nào: </label>
-        <mat-form-field><input type="text" matInput></mat-form-field>
-        <label for="">Mỗi tuần bạn uống bao nhiêu ly rượu ? </label>
-        <mat-form-field><input type="text" matInput></mat-form-field>
-        <label for="">Một tuần bạn tập thể dục bao nhiêu lần ?  </label>
-        <mat-form-field><input type="text" matInput></mat-form-field>
-        <label for="">Nếu có, bạn tập bộ môn gì ?  </label>
-        <mat-form-field><input type="text" matInput></mat-form-field>
-    </div>
+        </div>
+        <div class="example">
+            <mat-label>Bạn có được nhận nuôi không ? </mat-label>
+            <mat-checkbox class="example-margin">Có</mat-checkbox>
+            <mat-checkbox class="example-margin">Không</mat-checkbox>
+        </div>
+        <div>
+            <label>chiều cao</label>
+            <mat-form-field>
+                <input matInput formControlName="ten" />
+            </mat-form-field>
+            <label for="">cân nặng</label>
+            <mat-form-field>
+                <input matInput formControlName="ten" />
+            </mat-form-field>
+        </div>
+        <div class="example">
+            <mat-label>Bố mẹ có quan hệ họ hàng không ? </mat-label>
+            <mat-checkbox class="example-margin">Có</mat-checkbox>
+            <mat-checkbox class="example-margin">Không</mat-checkbox>
+        </div>
+        <div>
+            <h3>Điền vào các mục sau nếu bạn là nữ:</h3>
+            <label for="">Tuổi có kinh đầu: </label>
+            <mat-form-field><input type="text" matInput /></mat-form-field>
+            <label for="">Khoảng thời gian dùng thuốc tránh thai: </label>
+            <mat-form-field><input type="text" matInput /></mat-form-field>
+            <label for="">Số lần mang thai: </label>
+            <mat-form-field><input type="text" matInput /></mat-form-field>
+            <label for="">Tuổi có con đầu tiên: </label>
+            <mat-form-field><input type="text" matInput /></mat-form-field>
+        </div>
+
+        <div>
+            <h3>Điền vào các mục sau cho cả nam và nữ:</h3>
+            <div>
+                <mat-label>Bạn có hút thuốc không ? </mat-label>
+                <mat-checkbox class="example-margin">Có</mat-checkbox>
+                <mat-checkbox class="example-margin">Không</mat-checkbox>
+            </div>
+            <label for="">Từng hút: </label>
+            <mat-form-field><input type="text" matInput /></mat-form-field>
+            <label for="">Bỏ thuốc năm nào: </label>
+            <mat-form-field><input type="text" matInput /></mat-form-field>
+            <label for="">Mỗi tuần bạn uống bao nhiêu ly rượu ? </label>
+            <mat-form-field><input type="text" matInput /></mat-form-field>
+            <label for="">Một tuần bạn tập thể dục bao nhiêu lần ? </label>
+            <mat-form-field><input type="text" matInput /></mat-form-field>
+            <label for="">Nếu có, bạn tập bộ môn gì ? </label>
+            <mat-form-field><input type="text" matInput /></mat-form-field>
+        </div>
+    </section>
+    <section>
+        <h1>Thông tin sức khỏe</h1>
+        <p>Trong danh sách bên dưới, hãy chọn Bệnh hoặc Tình trạng (nếu có). Sau đó chọn Độ tuổi lúc Chẩn đoán. Bạn có thể lặp lại quá trình này nếu cần.</p>
+        <div>
+            <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Nhóm bệnh</mat-label>
+                <input type="text" placeholder="Pick one" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto" />
+                <mat-autocomplete #auto="matAutocomplete">
+                    <mat-option *ngFor="let DSbenh of filteredOptions | async" [value]="DSbenh">
+                        {{ DSbenh }}
+                    </mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+        </div>
+    </section>
+
 </form>
